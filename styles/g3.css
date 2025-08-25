@@ -139,17 +139,40 @@
   width: 540px;
 }
 
+.our-sponspors {
+  text-align: center;
+  margin: 50px auto;
+  max-width: 540px;
+}
+ .sponspors-img{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+ }
+
  @media  screen and (max-width:576px) {
    .navber, .nav-links, .teams{
     flex-direction: column;
    }
-   .img-container{
+   .img-container, .fact-container, .sponspors-img{
     grid-template-columns: repeat(1, 1fr);
    }
    .features{
     margin-left: 20px;
+    
    }
+.fact-container{
+  justify-items: center;
+  gap: 24px;
+}
+
+ .sponspors-img{
+  justify-items: center;
+  gap: 50px;
  }
+ 
+
+ }
+
 
 
  
